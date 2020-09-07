@@ -1,5 +1,5 @@
 # AutomationTesting
-All the Automation testing scripts I wrote is here.
+All the Automation testing scripts I wrote are here.
 
 Automation Scripting is done in Eclipse IDE.
 To write automation script in eclipse IDE, first download selenium java: https://www.selenium.dev/downloads/
@@ -15,7 +15,7 @@ Go to Libraries. Click on Add external JAR's.
 Add all the files in the Selenium Java file we downloaded.
 
 go to Java files.
-  we need to import files according to the browser we wank to use.
+  we need to import files according to the browser we want to use.
   Chrome: import org.openqa.selenium.chrome.ChromeDriver;
           Add   System.setProperty("webdriver.chrome.driver", "___downloaded webdriver path here___");
 		            WebDriver driver = new ChromeDriver();
